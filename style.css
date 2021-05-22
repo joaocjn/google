@@ -1,0 +1,273 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 58px;
+}
+
+.container{
+    height: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icones{
+    display: flex;
+    align-items: center;
+}
+
+.icone{
+    display: flex;
+    padding: 10px;
+}
+
+.imagens .icone:hover,.logo:hover{
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+.texto t{
+    font-size: 13px;
+    margin-left: 14px;
+    color: rgb(53, 53, 53);
+}
+
+.texto t:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.imagens{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 28px;
+}
+
+.imagens img{
+    width: 20px;
+}
+.logo{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+.logo img{
+    width: 35px;
+    border-radius: 50%;
+}
+
+#google{
+    height: 783px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-google{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.logo-google img{
+    width: 270px;
+}
+
+.caixa-pesquisa{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.pesquisa img:hover{
+    cursor: pointer;
+}
+
+.pesquisa{
+    display: flex;
+    justify-content: space-between;
+    width: 585px;
+    height: 45px;
+    border: 1px solid #c7c7c7;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
+
+.pesquisa:hover{
+    box-shadow: 0px 0px 4px rgb(196, 196, 196);
+    border: 1px solid rgba(0, 0, 0, 0);
+    
+}
+
+.logo-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.logo-start{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-end img{
+    margin-left: 5px;
+}
+
+.pesquisa input{
+    font-size: 18px;
+    width: 100%;
+    border: none;
+    margin-left: 10px;  
+}
+
+.pesquisa input:focus{
+    outline: none;
+}
+
+.botoes{
+    height: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button:hover{
+    cursor: pointer;
+    border: 1px solid #c7c7c7;
+}
+
+.botoes button{
+    height: 100%;
+    width: 135px;
+    background-color: #F8F9FA;
+    border: none;
+    color: rgb(54, 54, 54);
+    border-radius: 3px;
+}
+
+#rodape{
+    height: 95px;
+    background-color: #F2F2F2;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    color: #727272;
+    margin: 0px;
+    font-size: 15px;
+}
+
+.div{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.div2{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer ul, ul li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer ul{
+    display: flex;
+}
+
+.footer ul a{
+    display: block;
+    text-decoration: none;
+    color: #727272;
+    font-size: 14px;
+}
+
+.footer ul a:hover{
+    text-decoration: underline;
+}
+
+.start ul a{
+    margin-right: 30px;
+}
+
+.end ul a{
+    margin-left: 30px;
+}
+
+.footer t, .start, .end{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.div2 .margin{
+    margin: 0;
+}
+
+@media (max-width: 600px){
+    .div2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #rodape{
+        height: 100%;
+    }
+
+    .start ul{
+        display: flex;
+        align-items: center;
+    }
+
+    .start ul a{
+        margin-right: 10px;
+    }
+    
+    .end ul a{
+        margin-left: 10px;
+    }
+
+    .div t{
+        padding: 10px 0px;
+    }
+
+    .start{
+        padding: 10px 0px 0px 0px;
+    }
+
+    .end{
+        padding: 10px 0px 10px 0px;
+    }
+}
+
+
+
+
+
